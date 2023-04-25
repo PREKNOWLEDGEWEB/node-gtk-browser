@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "build" : "pkg . -t=node16-linux-x64"
+    "build" : "pkg . -t=node16-linux-x64",
+    "build-mac" : "pkg . -t=node16-macos-x64",
+    "build-win" : "echo 'Expirmental !!!!  Be alert of flying bugs' & pkg . -t=node16-macos-x64"
   },
   "keywords": [
     "browser",

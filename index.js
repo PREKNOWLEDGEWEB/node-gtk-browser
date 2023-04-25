@@ -16,13 +16,13 @@ gi.startLoop();
 Gtk.init();
 
 const headerBar = new Gtk.HeaderBar();
-headerBar.setTitle('Prototype Browser');
+headerBar.setTitle('GTK3 Browser');
 headerBar.setSubtitle('Subtitle');
 headerBar.setShowCloseButton(true);
 headerBar.setDecorationLayout("menu:minimize,maximize,close");
 
 const aboutDialog = new Gtk.AboutDialog({
-  'program-name': 'Prototype handleBrowser',
+  'program-name': 'GTK3 Browser',
   'website': 'https://google.com',
   'website-label': 'Google',
   'license' : 'GPL 3-0',
